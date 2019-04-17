@@ -4,16 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".MainActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:text="Escolha um bichinho"
         android:textAlignment="center"
-        android:textSize="35dp"
-        android:layout_margin="10dp"/>
+        android:textSize="35dp" />
 
     <ScrollView
         android:layout_width="match_parent"
@@ -32,416 +32,475 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_girafa" />
+                        android:src="@drawable/ic_dog" />
+
                     <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Cachorro"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
+                        android:src="@drawable/ic_gato" />
+
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Gato"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_girafa" />
+                        android:src="@drawable/ic_hamster" />
+
                     <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Hamster"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
+                        android:src="@drawable/ic_tartaruga" />
+
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Tartaruga"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_girafa" />
+                        android:src="@drawable/ic_passaro" />
+
                     <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Pássaro"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
+                        android:src="@drawable/ic_pinguim" />
+
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Pinguim"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_girafa" />
+                        android:src="@drawable/ic_cegonha" />
+
                     <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Cegonha"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
+                        android:src="@drawable/ic_coruja" />
+
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Coruja"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_girafa" />
+                        android:src="@drawable/ic_tubarão" />
+
                     <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Tubarão"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
+                        android:src="@drawable/ic_baleia" />
+
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Baleia"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_girafa" />
+                        android:src="@drawable/ic_medusa" />
+
                     <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Medusa"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
+                        android:src="@drawable/ic_polvo" />
+
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Polvo"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:src="@drawable/ic_elefante" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Elefante"
+                        android:textSize="25dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
                         android:src="@drawable/ic_girafa" />
-                    <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
-                </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
-                    <ImageView
-                        android:layout_width="120dp"
-                        android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Girafa"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_girafa" />
+                        android:src="@drawable/ic_gorila" />
+
                     <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Gorila"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
+                        android:src="@drawable/ic_serpente" />
+
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Serpente"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_girafa" />
+                        android:src="@drawable/ic_lobo" />
+
                     <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Lobo"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
+                        android:src="@drawable/ic_leao" />
+
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Leão"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
             </LinearLayout>
+
             <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                 xmlns:app="http://schemas.android.com/apk/res-auto"
                 xmlns:tools="http://schemas.android.com/tools"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
+
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_girafa" />
+                        android:src="@drawable/ic_urso" />
+
                     <TextView
-                        android:text="Girafa"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Urso"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:orientation="vertical"
-                    android:gravity="center">
+                    android:gravity="center"
+                    android:orientation="vertical">
+
                     <ImageView
                         android:layout_width="120dp"
                         android:layout_height="120dp"
-                        android:src="@drawable/ic_gato"/>
+                        android:src="@drawable/ic_ursopolar" />
+
                     <TextView
-                        android:text="Gato"
-                        android:textSize="25dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content" />
+                        android:layout_height="wrap_content"
+                        android:text="Urso polar"
+                        android:textSize="25dp" />
                 </LinearLayout>
 
 
