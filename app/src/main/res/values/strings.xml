@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">AppBichinhos</string>
+    <string name="textDog">O cão, no Brasil também chamado de cachorro, é um mamífero carnívoro da família dos canídeos, subespécie do lobo, e talvez o mais antigo animal domesticado pelo ser humano. Teorias postulam que surgiu do lobo cinzento no continente asiático há mais de 100 000 anos.</string>
+    <string name="textGato">O gato, também conhecido como gato caseiro, gato urbano ou gato doméstico, é um mamífero carnívoro da família dos felídeos, muito popular como animal de estimação. Ocupando o topo da cadeia alimentar, é predador natural de diversos animais, como roedores, pássaros, lagartixas e alguns insetos.</string>
+    <string name="textHamster">Hamster ou criceto é uma designação comum a diversos pequenos mamíferos roedores, da sub-família Cricetinae, encontrados na África e Ásia, dotados de grande bolsa facial e de cauda muito curta.</string>
+    <string name="textTartaruga">Tartarugas são diapsídeos da ordem Testudines caracterizados por um escudo especial ósseo ou cartilaginoso desenvolvido a partir de suas costelas e atuando como um escudo. "Tartaruga" pode referir-se à ordem como um todo ou a testudinas de água doce e marinhas. A ordem Testudines inclui espécies existentes e extintas.</string>
+    <string name="textPassaro">As Passeriformes são uma grande ordem da classe aves, que compreendem a mais numerosa das ordens, incluindo quase 6.000 espécies, mais da metade do total das espécies de aves existentes, possuindo grande diversificação morfológica, ecológica, biológica e comportamental.</string>
+    <string name="textPinguim">O pinguim é uma ave da família Spheniscidae, característica do hemisfério sul, em especial na Antártida e ilhas dos mares austrais, chegado à Terra do Fogo, Ilhas Malvinas e África do Sul, entre outros.</string>
+    <string name="textCegonha">As cegonhas são aves migrantes da família Ciconiidae. As cegonhas têm cerca de 1 metro de altura e 3 kg de peso. O seu habitat é variado e a alimentação inclui pequenos vertebrados. São animais migratórios e monogâmicos.</string>
+    <string name="textCoruja">O termo coruja é a designação comum das aves estrigiformes, das famílias dos titonídeos e estrigídeos. Na região do Amazonas, algumas espécies também são chamadas de murutucu.</string>
+    <string name="textTubarao">Tubarão ou cação é o nome dado vulgarmente aos peixes de esqueleto cartilaginoso e um corpo hidrodinâmico pertencente à superordem Selachimorpha. Os primeiros tubarões conhecidos viveram há aproximadamente 400 milhões de anos.</string>
+    <string name="textBaleia">A subordem Mysticeti compreende os maiores cetáceos, conhecidos popularmente por baleias ou rorquais. Alguns membros da subordem dos Odontoceti também podem ser chamados de baleias, como é o caso da baleia-branca e das baleias-bicudas. </string>
+    <string name="textMedusa">Medusozoa é um agrupamento taxonómico que inclui as medusas, mães d\'água, águas-vivas ou alforrecas, formas de vida livre dos cnidários adultos, que se encontram nas classes Scyphozoa, Hydrozoa e Cubozoa. Quase todas as medusas vivem nos oceanos, como componentes do zooplâncton.</string>
+    <string name="textPolvo">Os polvos são moluscos marinhos da classe Cephalopoda, da ordem Octopoda, possuindo oito braços fortes e com ventosas dispostos à volta da boca. Como o resto dos cefalópodes, o polvo tem um corpo mole, sem esqueleto interno nem externo, como o argonauta.</string>
+    <string name="textElefante">Elefante é o termo genérico e popular pelo qual são denominados os membros da família Elephantidae, um grupo de mamíferos proboscídeos elefantídeos, de grande porte, do qual há três espécies no mundo atual, duas africanas e uma asiática. Há ainda os mamutes, hoje extintos.</string>
+    <string name="textGirafa">O termo girafa é a designação dada a mamíferos artiodátilos, ruminantes, do gênero Giraffa, da família dos girafídeos, no qual constam quatro espécies. São ungulados com número par de dedos. As girafas são os únicos membros de seu gênero e, juntas com os ocapis, formam a família Giraffidae.</string>
+    <string name="textGorila">Os gorilas são mamíferos primatas pertencentes ao gênero Gorilla, endêmicos das florestas tropicais do centro da África. O fato de compartilharem entre 98 a 99% do DNA com os seres humanos faz dos gorilas um dos parentes vivos mais próximos, logo depois dos bonobos e chimpanzés.</string>
+    <string name="textSerpente"></string>
+    <string name="textLobo"></string>
+    <string name="textLeao"></string>
+    <string name="textUrso"></string>
+    <string name="textUrsoPolar"></string>
 </resources>
