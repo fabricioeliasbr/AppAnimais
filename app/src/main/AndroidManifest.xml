@@ -9,7 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Gato_Activity"></activity>
+        <activity android:name=".UrsoPolar_Activity"></activity>
+        <activity android:name=".Urso_Activity" />
+        <activity android:name=".Leao_Activity" />
+        <activity android:name=".Lobo_Activity" />
+        <activity android:name=".Serpente_Activity" />
+        <activity android:name=".Gorila_Activity" />
+        <activity android:name=".Girafa_Activity" />
+        <activity android:name=".Elefante_Activity" />
+        <activity android:name=".Polvo_Activity" />
+        <activity android:name=".Medusa_Activity" />
+        <activity android:name=".Baleia_Activity" />
+        <activity android:name=".Hamster_Activity" />
+        <activity android:name=".Tubarao_Activity" />
+        <activity android:name=".Coruja_Activity" />
+        <activity android:name=".Cegonha_Activity" />
+        <activity android:name=".Pinguim_Activity" />
+        <activity android:name=".Passaro_Activity" />
+        <activity android:name=".Tartaruga_Activity" />
+        <activity android:name=".Gato_Activity" />
         <activity android:name=".Dog_Activity" />
         <activity android:name=".MainActivity">
             <intent-filter>

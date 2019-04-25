@@ -14,9 +14,14 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void abrirDetalhes(View view) {
+        Intent intent = new Intent();
         switch(view.getId()){
             case R.id.idDog :
-                Intent intent = new Intent(MainActivity.this,Dog_Activity.class);
+                new Intent(MainActivity.this,Dog_Activity.class);
+                startActivity(intent);
+                break;
+            case R.id.idGato :
+                new Intent(MainActivity.this,Gato_Activity.class);
                 startActivity(intent);
                 break;
         }
